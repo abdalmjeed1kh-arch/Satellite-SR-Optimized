@@ -204,4 +204,22 @@ cython_debug/
 # Marimo
 marimo/_static/
 marimo/_lsp/
+
+# --- AI Major Custom Additions ---
+
+# Ignore large datasets (Satellite images)
+data/
+datasets/
+*.zip
+*.tar.gz
+
+# Ignore trained model weights (Save space on GitHub)
+*.pth
+*.pt
+*.onnx
+*.h5
+
+# Ignore local result exports that aren't for display
+temp_results/
+logs/
 __marimo__/
